@@ -1,0 +1,571 @@
+* {
+	font-family: Open Sans, arial;
+}
+
+body {
+	margin: 0;
+	padding: 0px;
+	
+}
+
+#meu_header {
+	
+	display: flex;
+	justify-content: center;
+	height: 65px;
+	background-color: #FFF;
+}
+
+
+
+.barra_menu {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFF;
+
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	color: #8B8989;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+/*---------------NAV---------------*/
+
+/*CONFIGURAÇÃO NO BOOTSTRAP*/
+
+
+/*---------------BANNER---------------*/
+
+#banner {
+	display: flex;
+	justify-content: center;
+	margin-top: -20px;
+	height: 620px;
+	background-repeat: no-repeat;
+	background-image: url('../imgs/show005.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.banner_transparente {
+	
+	display: flex;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: 0.3s;
+	border-radius: 8px;
+	margin-top: 13%;
+	/*transform: translate(0%, 35%);*/
+}
+
+.banner_texto {
+	padding: 15px;
+	max-height: 40%;
+	max-width: 100%;
+}
+
+.banner_transparente p {
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+.banner_transparente h1 {
+	font-size: 22px;
+	margin-top: 10%;
+	letter-spacing: 5px;
+}
+.banner_options {
+	display: flex;
+	height: 40px;
+	display: flex;
+	margin-top: 10%;
+}
+.banner_options h1 {
+	font-size: 25px;
+	margin:0px;
+	padding:0px;
+	opacity: 0,5;
+}
+.banner_titulo a {
+	text-decoration: none;
+	list-style: none;
+	color: #363636;
+}
+.banner_titulo a:hover {
+	color: #FFF;
+	transition:all 0.3s ease;
+	text-decoration: none;
+	
+}
+
+.banner_titulo a:link {
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.banner_titulo a:active {
+	text-decoration: none;
+	list-style: none;
+}
+
+.banner_titulo a:visited {
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.banner1,
+.banner2,
+.banner3,
+.banner4,
+.banner5 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex:1;
+	color:#363636;
+	padding: 0px;
+	margin-right: 10px;
+	border: 1px solid #363636;
+}
+.banner5 {
+	margin-right: 0;
+}
+
+
+/*---------------SOBRE---------------*/
+
+.widget_info_right {
+	display: flex;
+	max-width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+} 
+
+.geral_borda {
+	display: flex;
+	border: 1px solid #BEBEBE;
+	margin-top: 0px;
+}
+
+.widget_info_right img {
+	display: flex;
+	max-width: 70%;
+	max-height: 70%;
+}
+
+#paineis-sobre {
+	margin-top: 20px;
+}
+
+/*---------------NOSSOS SERVIÇOES---------------*/
+
+
+/*CONFIGURAÇÃO NO BOOTSTRAP*/
+
+
+/*---------------MUSICOS PARCEIROS---------------*/
+
+#musicos_parceiros {
+	display: flex;
+	justify-content: center;
+	background-image: url('../imgs/casamento001.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.musicos_parceiros_titulo {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding-left: 10px;
+
+}
+
+.musicos_parceiros_fotos {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.musicos_parceiros_moldura {
+	display: flex;
+	width: 100px;
+	align-items: center;
+	margin:50px;	
+
+}
+
+.musicos_parceiros_img {
+	display: flex;
+	border-radius:100%;
+     
+}
+
+.musicos_parceiros_img_sombra {
+	display: flex;
+	border-radius:100%;
+    border:1px solid #D3D3D3;
+    width:110px;
+    height:110px;
+    align-items: center;
+    
+}
+
+.musicos_parceiros_titulo_img {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 5px;
+	justify-content: center;
+	border-radius:3px;
+	padding: 1px;
+	width: 130px;
+}
+
+.img_1,
+.img_2,
+.img_3,
+.img_4,
+.img_5,
+.img_6,
+.img_7,
+.img_8,
+.img_9,
+.img_10,
+.img_11,
+.img_12{
+	opacity: 0.6;
+	transition: 0.2s;
+	width:108px;
+    height:108px;
+}
+
+.img_1:hover, 
+.img_2:hover,
+.img_3:hover, 
+.img_4:hover,
+.img_5:hover, 
+.img_6:hover,
+.img_7:hover, 
+.img_8:hover,
+.img_9:hover, 
+.img_10:hover,
+.img_11:hover, 
+.img_12:hover {
+	display: flex;
+	opacity: 1;
+	width: 108px;
+	height: 108px;
+}
+
+.img_1 {
+	background-image: url(../imgs/musicos_parceiro/miqueias.png);
+}
+
+.img_2 {
+	background-image: url(../imgs/musicos_parceiro/erinaldo.png);
+}
+
+.img_3 {
+	background-image: url(../imgs/musicos_parceiro/samuka.png);
+}
+
+.img_4 {
+	background-image: url(../imgs/musicos_parceiro/felipeloures.png);
+}
+
+.img_5 {
+	background-image: url(../imgs/musicos_parceiro/arnaldoneto.png);
+}
+
+.img_6 {
+	background-image: url(../imgs/musicos_parceiro/jhowgermano.png);
+}
+
+.img_7 {
+	background-image: url(../imgs/musicos_parceiro/lucasribeiro.png);
+}
+
+.img_8 {
+	background-image: url(../imgs/musicos_parceiro/thiagoangulotti.png);
+}
+
+.img_9 {
+	background-image: url(../imgs/musicos_parceiro/flavioferreira.png);
+}
+
+.img_10 {
+	background-image: url(../imgs/musicos_parceiro/caioandre.png);
+}
+
+
+/*---------------PUBLICIDADE---------------*/
+
+#publicidade {
+	margin-top: 0px;
+}
+.publicidade_geral_p {
+	flex: 1;
+	background: ;
+	text-align: center;
+	font-size: 1.5em;
+	padding: :1px;	
+}
+
+/*---------------CARROSEL---------------*/
+
+#carrosel {
+	margin: 0px 0 10px 0;
+}
+
+.item {
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+
+/*---------------CONTATO---------------*/
+
+#contato {
+	background-color: ;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.oi {
+	width: 400px;
+	height: 200px;
+}
+/*---------------RODAPE---------------*/
+
+footer {
+	background: #333;
+    color: #FFF;
+    padding: 1em;
+    margin-top: 10px;
+}
+
+
+.footer_copy {
+	border-top: 1px solid #2c2c2c;
+	height: 40px;
+	line-height: 40px;
+	color: #5c5c5c;
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.menuMobile {
+	display: none;
+	width: 40px;
+	height: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+.mm_line {
+	height: 3px;
+	background-color: #39aae1;
+}
+
+.b {
+	.background-color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	/* Todas as classes com display:none; */
+	.banner_options,
+	.widget_info_right,
+	.carousel-indicators,
+	.col-form-label {
+		display: none;
+	}
+
+	/*Foi definido essa classe, para o space-betewen ser
+	aplicado no header*/
+	.meu_container {
+		display: flex;
+		width: 100%;
+	}
+
+	#banner {
+		height: 500px;
+	}
+	
+	/*nav ul {
+		flex-direction: column;
+		display: none;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+
+	nav {
+		padding: 0;
+	}*/
+
+	.menuMobile {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.banner_transparente {
+	
+		display: flex;
+		color: #FFF;
+		background-color: rgba(0, 0, 0, 0.5);
+		transition: 0.3s;
+		border-radius: 8px;
+		margin-top: 30%;
+	}
+
+	.banner_texto {
+		padding: 8px;
+	}
+
+	.banner_transparente h1 {
+		font-size: 18px;
+		margin-top: 0%;
+		letter-spacing: 2px;
+	}
+
+	.banner_transparente p {
+		font-size: 12px;
+	}
+	
+	/*SOBRE*/
+	#sobre {
+		background-image: url('../imgs/sobre.png');
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.geral_borda {
+		border: 0px;
+		opacity: 1;
+	}
+
+	/*MUSICOS PARCEIROS*/
+	.musicos_parceiros_titulo {
+		justify-content: center;
+		align-items: center;
+	}	
+
+	.musicos_parceiros_titulo h2 {
+		font-size: 18px;
+		align-items: center;
+	}
+
+	.musicos_parceiros_moldura {
+		display: flex;
+		width: 100px;
+		align-items: center;
+		margin:20px;
+	}
+	
+	/*Alteração opacidade, tamanho*/
+	.img_1,
+	.img_2,
+	.img_3,
+	.img_4,
+	.img_5,
+	.img_6,
+	.img_7,
+	.img_8,
+	.img_9,
+	.img_10,
+	.img_11,
+	.img_12{
+		opacity: 1;
+		transition: 0.2s;
+		width:108px;
+	    height:108px;
+	}
+
+	.sobre_center {
+		flex: 1;
+		flex-direction: row;
+		background-color: ;
+
+	}
+
+	.paineis-sobre {
+
+	}
+}
+
+@media (max-width: 992px) {
+	
+	.item {
+		height: 390px;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media (max-width: 730px) {
+	
+	.item {
+		height: 290px;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media (max-width: 548px) {
+	
+	.item {
+		height: 180px;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media (max-width: 348px) {
+	
+	.item {
+		height: 130px;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+
+	
+
